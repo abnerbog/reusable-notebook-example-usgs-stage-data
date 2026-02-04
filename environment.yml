@@ -1,0 +1,8 @@
+name: reusable-notebook-example-usgs-stage-data
+channels:
+  - conda-forge
+  - r
+dependencies:
+  - jupyter
+  - r-irkernel # R kernel is required for running notebook
+  - r-base=4.4.2
